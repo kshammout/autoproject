@@ -16,8 +16,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.sikuli.*;
-import org.sikuli.api.Screen;
+//import org.sikuli.*;
+//import org.sikuli.api.Screen;
  
 public class CA_ProfilePage {
 
