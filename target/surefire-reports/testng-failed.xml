@@ -15,13 +15,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.testCases.JMB_TC_002 -->
-      <class name="com.testCases.JMB_TC_001">
-        <methods>
-          <include name="JMB_TC_001"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.testCases.JMB_TC_001 -->
       <class name="com.testCases.JMB_TC_003">
         <methods>
           <include name="tearDown"/>
