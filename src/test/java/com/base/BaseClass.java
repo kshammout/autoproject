@@ -40,7 +40,7 @@ public class BaseClass
 		System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
-		options.addArguments("window-size=1200x600");		
+		options.addArguments("--no-sandbox");		
 		driver = new ChromeDriver(options);
 		driver.get(baseURL);
         driver.manage().window().maximize();
