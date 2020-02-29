@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="29.307" tests="5" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/motasem/Downloads/autoproject"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/motasem/Downloads/autoproject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/7c/tgn6552x7db_8rw76htmpyl00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/motasem/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/motasem/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/motasem/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="library.jansi.path" value="/Users/motasem/maven/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/motasem"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="motasem"/>
+    <property name="java.class.path" value="/Users/motasem/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/motasem/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="JMB_TC_001" classname="com.testCases.JMB_TC_001" time="0.311">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;candidateLogin&quot;]/table/tbody/tr[4]/td[2]/label/a&quot;}&#10;  (Session info: chrome=80.0.3987.122)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Motasems-MacBook-Pro.local&apos;, ip: &apos;2607:fea8:4f20:dcd8:0:0:0:4%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;10.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/7c/tgn6552x7db...}, goog:chromeOptions: {debuggerAddress: localhost:56733}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3e67b368b5c8eeedf05c8b72b98c9394&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;candidateLogin&quot;]/table/tbody/tr[4]/td[2]/label/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="candidateLogin"]/table/tbody/tr[4]/td[2]/label/a"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Motasems-MacBook-Pro.local', ip: '2607:fea8:4f20:dcd8:0:0:0:4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/7c/tgn6552x7db...}, goog:chromeOptions: {debuggerAddress: localhost:56733}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3e67b368b5c8eeedf05c8b72b98c9394
+*** Element info: {Using=xpath, value=//*[@id="candidateLogin"]/table/tbody/tr[4]/td[2]/label/a}
+	at com.testCases.JMB_TC_001.JMB_TC_001(JMB_TC_001.java:29)
+</failure>
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:38)- Debug logging has started 
+ INFO [main] (JMB_TC_001.java:24)- Started My Profile - Personal Details Validation Test
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 30094
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Feb 28, 2020 10:10:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1582945806.514][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945807.021][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945807.124][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945807.226][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945807.424][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945807.540][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="JMB_TC_002" classname="com.testCases.JMB_TC_002" time="3.743">
+    <failure message="The following asserts failed:&#10;	expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [false] but found [true]
+	at com.testCases.JMB_TC_002.JMB_TC_002(JMB_TC_002.java:62)
+</failure>
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:38)- Debug logging has started 
+ INFO [main] (JMB_TC_002.java:37)- Login Successful!
+ INFO [main] (JMB_TC_002.java:59)- Test Failed! Widnow didnt opened as expected
+Screenshot taken
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 47127
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Feb 28, 2020 10:10:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1582945809.931][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945810.450][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945810.643][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945810.745][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945810.919][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945811.533][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945811.634][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945811.736][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945811.949][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945812.050][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945813.212][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="JMB_TC_003" classname="com.testCases.JMB_TC_003" time="4.679">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;left_link&apos;]//a[contains(text(),&apos;Past Jombone Employments&apos;)]&quot;}&#10;  (Session info: chrome=80.0.3987.122)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Motasems-MacBook-Pro.local&apos;, ip: &apos;2607:fea8:4f20:dcd8:0:0:0:4%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;10.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/7c/tgn6552x7db...}, goog:chromeOptions: {debuggerAddress: localhost:56875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e86e45831c8f64756ad40a8c62d4ea82&#10;*** Element info: {Using=xpath, value=//ul[@class=&apos;left_link&apos;]//a[contains(text(),&apos;Past Jombone Employments&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='left_link']//a[contains(text(),'Past Jombone Employments')]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Motasems-MacBook-Pro.local', ip: '2607:fea8:4f20:dcd8:0:0:0:4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/7c/tgn6552x7db...}, goog:chromeOptions: {debuggerAddress: localhost:56875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e86e45831c8f64756ad40a8c62d4ea82
+*** Element info: {Using=xpath, value=//ul[@class='left_link']//a[contains(text(),'Past Jombone Employments')]}
+	at com.testCases.JMB_TC_003.JMB_TC_003(JMB_TC_003.java:38)
+</failure>
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:38)- Debug logging has started 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 30180
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Feb 28, 2020 10:10:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1582945816.178][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945816.461][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945816.689][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945816.790][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945816.955][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945817.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945817.677][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945817.779][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945817.965][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945818.190][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945821.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582945821.202][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="JMB_TC_004" classname="com.testCases.JMB_TC_004" time="3.159"/>
+  <testcase name="JMB_TC_005" classname="com.testCases.JMB_TC_005" time="2.474"/>
+</testsuite>

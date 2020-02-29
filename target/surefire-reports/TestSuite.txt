@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 29.307 sec <<< FAILURE! - in TestSuite
+JMB_TC_001(com.testCases.JMB_TC_001)  Time elapsed: 0.311 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="candidateLogin"]/table/tbody/tr[4]/td[2]/label/a"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Motasems-MacBook-Pro.local', ip: '2607:fea8:4f20:dcd8:0:0:0:4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/7c/tgn6552x7db...}, goog:chromeOptions: {debuggerAddress: localhost:56733}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3e67b368b5c8eeedf05c8b72b98c9394
+*** Element info: {Using=xpath, value=//*[@id="candidateLogin"]/table/tbody/tr[4]/td[2]/label/a}
+	at com.testCases.JMB_TC_001.JMB_TC_001(JMB_TC_001.java:29)
+
+JMB_TC_002(com.testCases.JMB_TC_002)  Time elapsed: 3.743 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [false] but found [true]
+	at com.testCases.JMB_TC_002.JMB_TC_002(JMB_TC_002.java:62)
+
+JMB_TC_003(com.testCases.JMB_TC_003)  Time elapsed: 4.679 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='left_link']//a[contains(text(),'Past Jombone Employments')]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Motasems-MacBook-Pro.local', ip: '2607:fea8:4f20:dcd8:0:0:0:4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/7c/tgn6552x7db...}, goog:chromeOptions: {debuggerAddress: localhost:56875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e86e45831c8f64756ad40a8c62d4ea82
+*** Element info: {Using=xpath, value=//ul[@class='left_link']//a[contains(text(),'Past Jombone Employments')]}
+	at com.testCases.JMB_TC_003.JMB_TC_003(JMB_TC_003.java:38)
+
