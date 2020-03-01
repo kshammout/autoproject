@@ -38,10 +38,10 @@ public class BaseClass
 		logger.setLevel(Level.DEBUG); // to get the debug log
 		logger.debug("Debug logging has started ");
 		System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("headless");
-		options.addArguments("--no-sandbox");		
-		driver = new ChromeDriver(options);
+		//ChromeOptions options = new ChromeOptions();
+		//options.addArguments("headless");
+		//options.addArguments("--no-sandbox");		
+		driver = new ChromeDriver();
 		driver.get(baseURL);
         driver.manage().window().maximize();
 	}
